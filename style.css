@@ -1,0 +1,231 @@
+section {
+	margin: 20px;
+	padding: 10px;
+}
+
+h2 {
+	color: #333;
+	margin-top: 15px;
+}
+
+ifram {
+	display: block;
+	margin: 0 auto;
+	border: 2px solid #ccc;
+}
+form {
+	max width: 400px;
+	maggin: 20pax auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+	background: #f9f9f9;
+	border-radius: 5px;
+}
+label{
+	fond-weight: bold;
+}
+input, button{
+	width: 100%;
+	padding: 8px;
+	margin-top: 5px;
+}
+button{
+	background:#333;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+button:hover {
+	background: #555;
+}
+/* body text uses poppins */
+body{
+	font-family: 'poppins' , sans-serif;
+	margin: 0;
+	background: #fdfdfd;
+	color: #333;
+}
+/* Headings use playfair display */
+h1,h2,h3{
+	font-family: 'playfair', serif;
+	color: #444;
+}
+.gallery{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+	gap: 15px;
+	margin: 20px;
+}
+.gallery img{
+	width: 100%;
+	height:auto;
+	border-radius: 8px;
+	border: 20px solid #ccc;
+	transition:transform 0.3s ease;
+}
+.gallery img:hover{
+	transform: scale(1.05);
+	border-color: #004080;
+}
+nav a {
+	color: blue; /* or use the exact color see on reservations*/
+	text-decoration: none;
+	padding: 8px;
+}
+nav a:hover{
+	color: light blue; /*optional hover color*/
+}
+nav a:visited{
+	color: red; /* same as normal*/
+}
+nav a:active{
+	color: yellow; /* same as normal */
+}
+nav a {
+	color: red; /* or your preferred color */
+	text-decoration: none;
+	padding: 8px;
+}
+nav a:visited,
+nav a:hover,
+nav:active{
+	color: red; /* keep same color for all states */
+}
+nav a:hover {
+	color: darkred;
+}
+nav {
+	display: flex;
+	justify-content: space-around;
+	background-color:  #f8f8f8;
+	padding: 15px;
+}
+nav a {
+	color: red;
+	text-decoration: none;
+	font-size: 24px; /* increase font size */
+	font-weight:  bold; /* optional for emphasis */
+}
+nav a:hover {
+	color: darkred; /* hover color */
+}
+nav {
+	display: flex;
+	justify-content: space-around;
+	background-color:  #333; /* dark visible background */
+	padding: 15px 0;
+}
+nav a {
+	color: white; /* contrast against dark background */
+	text-decoration: none;
+	font-size: 24px; 
+	font-weight:  bold;
+}
+nav a:hover {
+	color: yellow; /* hover effect for visibility */
+}
+h1 {
+	text-align: center; /* center the tittle */
+	font-size: 40px; /* increase font size */
+	font-weight: bold; */ make it bold */
+	color: white; /* visible color */
+	margin-top: 30px; /* add spacing from top */
+}
+h2 {
+	text-align: center; /* center subtittles */
+	font-size: 28px; /* larger than normal */
+	font-weight: bold;
+	color: white; 
+	margin-top: 20px;
+}
+h1 {
+	text-align: center; 
+	font-size: 40px; 
+	font-weight: bold; 
+	color:white; 
+}
+ul {
+	text-align: center; /* center the menu under the tittle */
+	list-style-position: inside;
+	font-size: 20px;
+	font-weight: bold;
+}
+.contact-section {
+	text-align: center; /* center all text and elements */
+	font-size: 20px; /* make text larger */
+	font-weight: bold; /* bold for visibility */
+	margin-top: 30px; /* spacing from top */
+}
+.contact-section h1 {
+	font-size: 40px; /* bigger tittle */
+	color: white; /* visible color */
+	margin-bottom: 20px; /* space below tittle */
+}
+.contact-section iframe {
+	display: block;
+	margin: 20px auto; /* center the map */
+}
+body {
+	background-image: url("images/background.jpg");
+	background-size: cover; /* fill the whole screen */
+	background-repeat: no-repeat; /* prevent tiling */
+	background-position: center; /* center the image */
+	color: black; /* make text readable */
+	font-family: 'Poppins',sans-serif;
+}
+body::before {
+	content: "";
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.4); /*dark transparent layer */
+	z-index: -1;
+/*default background for all pages */
+body {
+	background-image: url("images/background.jpg");
+	background-size: cover; 
+	background-repeat: no-repeat; 
+	background-position: center; 
+}
+/*solid color background only for reservations page */
+.reservations-page {
+	background-image: none; /* remove the image */
+	background-color:  #a93226; /* darker red */
+	color: #000; /* black text for readability */
+}
+/*home page tittle */
+h1 {
+text-align: center; /* centers the tittle */
+font-size: 48px; /* bigger font size */
+font-weight: bold; /* makes it stand out */
+color: white; /*visible against background */
+margin-top: 50px;
+}
+/* home page sub-text or paragraphs */
+p {
+	text-align: center; /* center all text */
+	font-size: 22px; /* larger than default */
+	color: white; /* visible against backgroud */
+	max-width: 800px; /* keeps text neat */
+	margin: 20px auto; /* centers block */
+}
+p {
+	color: white; /* white sets all <p> text to white */
+}
+.gallery-page p {
+	color:whhite;
+}
+body.gallary-page p {
+	color: white ! important !;
+}
+ .home-page p {
+	color: red !important; /* forces the paragraph text to be red */
+}
+p {
+	color: white;
+}
+
+
+
